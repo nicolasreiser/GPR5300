@@ -1,0 +1,8 @@
+C:\Users\nicor\OneDrive\Visual Studio\gpr5300\x64\Debug\ColorPixelShader.cso
+C:\Users\nicor\OneDrive\Visual Studio\gpr5300\x64\Debug\ColorVertexShader.cso
+C:\Users\nicor\OneDrive\Visual Studio\gpr5300\x64\Debug\PhongPixelShader.cso
+C:\Users\nicor\OneDrive\Visual Studio\gpr5300\x64\Debug\PhongVertexShader.cso
+C:\Users\nicor\OneDrive\Visual Studio\gpr5300\x64\Debug\TexturePixelShader.cso
+C:\Users\nicor\OneDrive\Visual Studio\gpr5300\x64\Debug\TextureVertexShader.cso
+C:\Users\nicor\OneDrive\Visual Studio\gpr5300\x64\Debug\gpr5300.exe
+C:\Users\nicor\OneDrive\Visual Studio\gpr5300\x64\Debug\gpr5300.pdb
