@@ -39,7 +39,7 @@ float4 main(PixelInput IN) : SV_TARGET
     float diffuse = max(0, dot(lightDirection, IN.normal));
 
     float3 reflectVector = 2.0 * diffuse * IN.normal - lightDirection;
-    float specular = pow(max(0, dot(reflectVector, IN.viewDirection)), 128) * 1;
+    float specular = pow(max(0, dot(reflectVector, IN.viewDirection)), SpecularPowerGlossiness.x) * SpecularPowerGlossiness.y;
 
     float4 color = LightData.AmbientColor ;
     color += tex * saturate(LightData.DiffuseColor * diffuse);

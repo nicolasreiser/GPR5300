@@ -1,2 +1,8 @@
-﻿  compilation object save succeeded; see C:\Users\nicor\OneDrive\Visual Studio\gpr5300\x64\Debug\PhongPixelShader.cso
+﻿  main.cpp
+C:\Users\nicor\OneDrive\Visual Studio\gpr5300\main.cpp(154,92): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\nicor\OneDrive\Visual Studio\gpr5300\main.cpp(154,65): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\nicor\OneDrive\Visual Studio\gpr5300\main.cpp(154,38): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\nicor\OneDrive\Visual Studio\gpr5300\main.cpp(155,97): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\nicor\OneDrive\Visual Studio\gpr5300\main.cpp(155,69): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\nicor\OneDrive\Visual Studio\gpr5300\main.cpp(155,41): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   gpr5300.vcxproj -> C:\Users\nicor\OneDrive\Visual Studio\gpr5300\x64\Debug\gpr5300.exe

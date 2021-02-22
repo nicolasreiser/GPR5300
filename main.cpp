@@ -50,25 +50,26 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR szCmdLine
 	camera.SetTime(&time);
 
 	// Create ShaderParameters
-	ShaderParameters param_Floor;
+	ShaderParameters param_Floor; 
 	param_Floor.Tiling = { 4,4 };
 	param_Floor.Offset = { 0,0 };
 	param_Floor.VertexShaderName = L"PhongVertexShader.hlsl";
 	param_Floor.PixelShaderName = L"PhongPixelShader.hlsl";
-
+	param_Floor.SpecularPower = { 32,0 }; // parameters for rough material
+	param_Floor.Glossiness = { 0.2f,0 };
 	ShaderParameters param_Cubes;
 	param_Cubes.Tiling = { 1,1 };
-	param_Cubes.Offset = { 0,0 };
+	param_Cubes.Offset = { 64,0 };
 	param_Cubes.VertexShaderName = L"PhongVertexShader.hlsl";
 	param_Cubes.PixelShaderName = L"PhongPixelShader.hlsl";
-	param_Cubes.SpecularPower = {1,0};
+	param_Cubes.SpecularPower = {64,0};
 	param_Cubes.Glossiness = {0.5,0};
 	ShaderParameters param_Wall;
 	param_Wall.Tiling = { 5,1 };
 	param_Wall.Offset = { 0,0 };
 	param_Wall.VertexShaderName = L"PhongVertexShader.hlsl";
 	param_Wall.PixelShaderName = L"PhongPixelShader.hlsl";
-	param_Wall.SpecularPower = { 1,0 };
+	param_Wall.SpecularPower = { 64,0 };
 	param_Wall.Glossiness = { 0.5,0 };
 	// Create materials
 	Material material_Wall;
